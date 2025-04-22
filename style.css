@@ -116,7 +116,7 @@ opacity: 1;
 
  /* section 3 */
 .herotext { display: flex;
- padding: 0 150px; 
+ padding: 0 150px 150px; 
 background-color:  #F2F7F8;
 gap: 30px;
 align-items: center;}
@@ -138,8 +138,161 @@ h3 { line-height: 24px;
 
 .herotext3 p {line-height: 24px;
    font-size: 13px;
-   font-weight: 700;
+   font-weight: 700
 
+}
+
+/* section 4 */
+.sect4text { text-align: center;
+width: 100%; 
+padding-bottom: 100px;
+background-color: #F2F7F8;}
+
+.sect4text h1 { font-size: 40px;
+   line-height: 66px;
+   color: #122231;
+}
+
+.sect4text p { font-size: 19px;
+   line-height: 35px;
+   color: #314558;
+}
+
+/* section 4 part 2 */
+.herogrid {display: grid;
+grid-template-columns: repeat(2 , 1fr);
+gap: 30px;
+color: white;
+padding:10px 200px ;
+background-color: #F2F7F8;
+margin-bottom: 150px;
+}
+
+.automated { background-color: #0F60D6;
+padding: 50px 5px 20px 20px; 
+border-radius: 20px;
+width: 420px;
+height: 270px;
+position: relative;
+
+
+h2 { line-height: 42px;
+font-size: 30px;
+padding-bottom: 20px;}
+
+p { line-height: 16px;
+   font-size: 14px;
+width: 230px;}
+   
+}
+
+
+.fixed { background-color: #2295F2;
+   padding: 40px 5px 20px 20px;
+   border-radius: 20px;
+   width: 420px;
+height: 270px;
+position: relative;
+
+
+   h2 { line-height: 42px;
+      font-size: 30px;
+      padding-bottom:8px}
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px;}
+      }
+
+
+.goal { background-color: #39C277;
+   padding: 50px 5px 20px 20px;
+   border-radius: 20px;
+   position: relative;
+   width: 420px;
+   height: 270px;
+
+
+   h2 { line-height: 42px;
+      font-size: 30px;
+      padding-bottom: 20px}
+ 
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px}
+      
+      }
+
+
+.flexnaira { background-color: #E5489B;
+   padding: 50px 5px 20px 20px;
+   border-radius: 20px;
+   position: relative;
+   width: 420px;
+   height: 270px;
+
+   h2 { line-height: 42px;
+      font-size: 30px;
+      padding-bottom: 20px}
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px}
+      
+      }
+
+
+.flexdollar { background-color: #0C1825;
+   padding: 50px 5px 20px 20px;
+   border-radius: 20px;
+   position: relative;
+   width: 420px;
+   height: 270px;
+
+   h2 { line-height: 42px;
+      font-size: 30px;
+      padding-bottom: 20px}
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px}
+      }
+   
+
+.houseMoney { background-color:#FF783C;
+   padding: 50px 5px 20px 20px;
+   border-radius: 20px;
+   position: relative;
+   width: 420px;
+   height: 270px;
+
+   h2 { line-height: 42px;
+      font-size: 30px;
+      padding-bottom: 20px}
+      
+      p { line-height: 16px;
+         font-size: 14px;
+         width: 230px;}
+      
+      }
+
+      .herogrid img { width: 180px;
+      height: auto;}
+
+
+
+      .automated1 , .fixed1 ,.goal1 ,.flexnaira1 , .flexdollar1 , .houseMoney1 
+       { display: flex;
+      align-items: end; 
+      justify-content: space-between;
+      width: 100%;
+      height: 70%;
+  }
+
+  .abso { position:absolute;
+bottom: -5px;;
+left: 55%;
 
 }
 
@@ -147,10 +300,15 @@ h3 { line-height: 24px;
 
 
 
+.arrow img { width: 30px;
+height: auto;}
 
 
-
-
+.arrow { display: flex;
+align-items: center;
+gap: 5px;
+padding-bottom: 20px;
+}
 
 
 
@@ -180,7 +338,7 @@ width: 100%;
 .heroright img { width: 24em;
 }
 
-.herotext { padding: 5px;
+.herotext { padding: 20px;
 flex-wrap: wrap;
 margin: 0 auto;
 justify-content: center;}
@@ -194,7 +352,33 @@ margin-bottom: 20px;
 .herotext2 p { width: 280px;}
 
 
+.sect4text h1 { width: 380px;
+   margin: 0 auto;
+   text-align: center;
+}
 
+.sect4text p { max-width: 400px;
+text-align: center;
+margin: 0 auto;}
+
+.herogrid { display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.herogrid p {margin: 0 auto;}
+
+.automated , .fixed ,.goal ,.flexnaira , .flexdollar , .houseMoney
+{
+ width: 350px;;
+}
+
+
+.abso { 
+   bottom: -5px;;
+   left: 50%;
+   
+   }
 
 
 
