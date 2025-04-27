@@ -228,7 +228,7 @@ position: relative;
 
 
 .goal { background-color: #39C277;
-   padding: 50px 5px 20px 20px;
+   padding: 50px 5px 20px 2px;
    border-radius: 20px;
    position: relative;
    width: 420px;
@@ -236,8 +236,11 @@ position: relative;
 
 
    h2 { line-height: 42px;
-      font-size: 30px;
-      padding-bottom: 20px}
+      font-size: 27px;
+      padding-bottom: 20px;
+      width: 320px;
+      margin: 0 auto;
+   }
  
       
       p { line-height: 16px;
@@ -610,12 +613,13 @@ align-items: center;
 
 .automated , .fixed ,.goal ,.flexnaira , .flexdollar , .houseMoney
 {
- width: 350px;;
+ width: 300px;
+ height: 350px;
 }
 
 .abso { 
    bottom: -5px;;
-   left: 50%;
+   left: 43%;
    }
 
    .sect5 { flex-wrap: wrap;
