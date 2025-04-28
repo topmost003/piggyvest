@@ -3,7 +3,7 @@
     font-family: "Montserrat", sans-serif;
  }
 
- .container { overflow-x: hidden;}
+ .container { overflow: hidden;}
 
 
 a { text-decoration: none;
@@ -152,9 +152,9 @@ height: auto;}
 .herotext3 { display: flex;
 align-items: center;
 padding-top: 30px;
-position: relative;
 cursor: pointer;
-text-decoration: none;}
+text-decoration: none;
+max-width: max-content;}
 
 
 .herotext3:hover {text-decoration: underline 2px black;}
@@ -572,19 +572,23 @@ width: 90%;}
 .hero { flex-wrap: wrap;}
 
 .hero { margin: 0 auto;
-   padding: 50px 5px 50px;
+   padding: 100px 15px 50px;
 width: 100%; 
 gap: 50px;
 }
-.heroleft h1  { width: 300px;}
+.heroleft h1  { width: 300px;
+padding-top: 15px;}
 
-.heroright img { width: 24em;
+.heroright img { width: 22em;
+   padding-right: 10px;
 }
 
-.herotext { padding: 20px;
+.herotext {
+   padding: 20px 40px;
 flex-wrap: wrap;
-margin: 0 auto;
-justify-content: center;}
+justify-content: center;
+
+}
 
 .herotext2 h3 { 
    width: 200px;
@@ -594,8 +598,12 @@ margin-bottom: 20px;
 
 .herotext2 p { width: 280px;}
 
+.herotext3 { justify-content: center;
+   margin: 0 auto;
+}
 
-.sect4text h1 { width: 380px;
+
+.sect4text h1 { width: 350px;
    margin: 0 auto;
    text-align: center;
 }
@@ -607,6 +615,7 @@ margin: 0 auto;}
 .herogrid { display: flex;
 flex-direction: column;
 align-items: center;
+margin-right: 70px;
 }
 
 .herogrid p {margin: 0 auto;}
@@ -615,11 +624,12 @@ align-items: center;
 {
  width: 300px;
  height: 350px;
+
 }
 
 .abso { 
    bottom: -5px;;
-   left: 43%;
+   left: 42%;
    }
 
    .sect5 { flex-wrap: wrap;
@@ -646,7 +656,7 @@ margin: 0 auto;}
 .sect5left .arrow { margin: 0 auto;}
 
 
-.sect6 video {width: 380px;
+.sect6 video {width: 350px;
    height: 500px;
 }
 
@@ -666,7 +676,7 @@ padding-bottom: 30px;}
    }
 
 
-   .sect7img img{ max-width: 23em;
+   .sect7img img{ max-width: 22em;
       height: auto;
    }
 
@@ -687,7 +697,7 @@ align-items: center;
 padding-right: 40px;
 }
 
-.sponsorsimg img { max-width: 200px;
+.sponsorsimg img { max-width: 170px;
    height: auto;
 margin: 0 auto;}
 
