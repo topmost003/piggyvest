@@ -580,7 +580,7 @@ gap: 50px;
 padding-top: 15px;}
 
 .heroright img { width: 22em;
-   padding-right: 10px;
+   padding-right: 30px;
 }
 
 .herotext {
@@ -589,6 +589,8 @@ flex-wrap: wrap;
 justify-content: center;
 
 }
+
+.btn { padding-right: 30px;}
 
 .herotext2 h3 { 
    width: 200px;
@@ -608,14 +610,14 @@ margin-bottom: 20px;
    text-align: center;
 }
 
-.sect4text p { max-width: 400px;
+.sect4text p { max-width: 350px;
 text-align: center;
 margin: 0 auto;}
 
 .herogrid { display: flex;
 flex-direction: column;
 align-items: center;
-margin-right: 70px;
+margin: 0 auto;
 }
 
 .herogrid p {margin: 0 auto;}
@@ -646,8 +648,8 @@ p { padding-bottom: 20px;}
 .sect5left { 
    width: 100%;
 
-   h1 { width:370px;
-   font-size: 30px ;}
+   h1 { width:350px;
+   font-size: 23px ;}
 
    p { width: 300px;
    text-align: center;
@@ -669,7 +671,7 @@ margin: 0 auto;}
 margin: 0 auto;
 padding-bottom: 20px;}
    
-      p { width: 400px;
+      p { width: 350px;
       text-align: center;
    margin: 0 auto;
 padding-bottom: 30px;}
@@ -681,7 +683,7 @@ padding-bottom: 30px;}
    }
 
    .sect7right h1 { 
-      width: 380px;
+      width: 350px;
          font-size: 33px;
          line-height :41px; 
          font-weight:400 ;
@@ -690,16 +692,19 @@ padding-bottom: 30px;}
       .sect7btn {justify-content: center;}  
 
       .sponsorsimg { display: grid;
-      grid-template-columns: repeat(2 , 1fr);
-gap: 30px;
-justify-content: center;
-align-items: center;
-padding-right: 40px;
-}
+         grid-template-columns:  1fr;
+          gap: 30px;
+          justify-content: center; 
+          align-items: center;
+          padding-right: 40px;
+          margin: 0 auto;
+          }
 
 .sponsorsimg img { max-width: 170px;
    height: auto;
-margin: 0 auto;}
+margin: 0 auto;
+padding-right: 50px;
+}
 
 
 .footer {display: flex;
